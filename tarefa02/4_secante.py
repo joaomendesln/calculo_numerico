@@ -1,3 +1,5 @@
+#ultima tentativa de achar os zeros da função pelo método da secante
+
 def f(L):
 	return 1 / ((900 - L ** 2) ** (1 / 2)) + 1 / ((400 - L ** 2) ** (1 / 2)) - 1 / 8
 
