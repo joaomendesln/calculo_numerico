@@ -1,6 +1,8 @@
 import math
 
 # q02 - parte 1
+# calculando a derivada em preparação para a segunda parte
+
 def derivada_f(x):
   return math.cos(x) -  x * math.sin(x)
 
