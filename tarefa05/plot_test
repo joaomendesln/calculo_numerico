@@ -1,0 +1,1 @@
+plot 0 lc 0, sin(2 * x) * x, x >= 0 && x <= 3.0 ? (-0.279415) * x: 0/0 with filledcurve y1 = 0 title 'I1', x >= 3.0 && x <= 6.0 ? 1.54295 + (-0.793731) * x: 0/0 with filledcurve y1 = 0 title 'I2', x >= 6.0 && x <= 9.0 ? 3.85946 + (-1.17982 * x): 0/0 with filledcurve y1 = 0 title 'I3'

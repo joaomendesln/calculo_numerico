@@ -1,0 +1,17 @@
+plot 0 lc 0, sin(x) * x, x >= (-5) && x <= (-3.333333) ? (−0.145178) * x + (−0.29011): 0/0 with filledcurve y1 = 0 title 'I1',
+
+
+x >= -3.333333 && x <= -1.666667 ? (−0.0872046) * x − 0.0968661: 0/0 with filledcurve y1 = 0 title 'I2', 
+
+
+x >= -1.666667 && x <= 0.0 ? (−0.029085) * x: 0/0 with filledcurve y1 = 0 title 'I3', 
+
+
+x >= 0.0 && x <= 1.666667 ? 0.029085 * x: 0/0 with filledcurve y1 = 0 title 'I4', 
+
+
+x >= 1.666667 && x <= 3.333333 ? 0.0872046 * x −0.0968661: 0/0 with filledcurve y1 = 0 title 'I5', 
+
+
+x >= 3.333333 && x <= 5.0 ? 0.145178 * x −0.29011: 0/0 with filledcurve y1 = 0 title 'I6'
+
