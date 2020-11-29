@@ -1,0 +1,1 @@
+plot 'pesos.txt', 70.333684357368 * x - 60.066083187469545 title 'Regressão' lc 3 lw 3
