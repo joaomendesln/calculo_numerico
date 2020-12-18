@@ -1,0 +1,3 @@
+plot 'barco.txt', lc 3 lw 3
+
+plot 'barco.txt', 3.7038 * x * x - 72.9250 * x + 362.4323 title 'Regressão Polinomial' lc 3 lw 3
